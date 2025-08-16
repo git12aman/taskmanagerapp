@@ -1,0 +1,51 @@
+# Node.js dependency directory
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Directory for coverage reports
+coverage/
+.nyc_output/
+
+# dotenv environment variables files
+.env
+.env.*.local
+
+# Build outputs
+/build
+/dist
+/out
+
+# Static uploads folder (backend)
+uploads/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Generated lock files (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# React development local files
+/.pnp
+.pnp.js
+
+# Optional npm cache folder
+.npm
+
+# Misc
+*.bak
+*.cache
+*.tmp
+*.swp
